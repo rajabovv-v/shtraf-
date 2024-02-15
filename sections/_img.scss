@@ -1,0 +1,12 @@
+.img{
+
+    &_row{
+        margin-top: 120px;
+        img{
+            width: 100%;
+        }
+        @media screen and (max-width:1124px) {
+            margin-top: 1px;            
+          }
+    }
+}

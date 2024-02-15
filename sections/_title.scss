@@ -1,0 +1,95 @@
+.title{
+
+    &_row{
+        display: inline-flex;
+        height: 512px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 60px;
+        flex-shrink: 0;
+        margin-top: 150px;
+
+        @media screen and (max-width:1324px) {
+
+            display: flex;
+            gap: 310px;
+          }
+
+          @media screen and (max-width:1124px) {
+
+            display: flex;
+            gap: 210px;
+          }
+          @media screen and (max-width:940px) {
+
+            display: flex;
+            gap: 110px;
+          }
+    }
+    &_text1{
+        width: 588px;
+        @media screen and (max-width:1124px) {
+           width: 20px;
+            
+          }
+
+
+        &_p{
+            color: #000;
+            font-family: 'Inter', sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height:138.667% ;
+            letter-spacing: 0.64px;
+            @media screen and (max-width:1124px) {
+                font-size: 18px;
+                
+              }
+        }
+    }
+    &_text2{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+        &_p1{
+            color: #000;
+            font-family: ' Inter' , sans-serif; 
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height:144.444% ;
+            letter-spacing: 0.6px;
+            @media screen and (max-width:1124px) {
+                font-size: 16px;
+                
+              }
+        }
+        &_p2{
+            color: #525252;
+            font-family: 'Inter' , sans-serif;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height:152.941% ;
+            letter-spacing: 0.6px;
+            @media screen and (max-width:1124px) {
+                font-size: 12px;
+                
+              }
+        }
+        &_p3{
+            color: #757575;
+            font-family: 'Inter' , sans-serif;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height:157.895% ;
+            @media screen and (max-width:1124px) {
+                font-size: 14px;
+                
+              }
+        }
+    }
+}

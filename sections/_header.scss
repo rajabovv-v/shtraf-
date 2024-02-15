@@ -1,0 +1,35 @@
+.header{
+
+   &_nav{
+    display: flex;
+    padding: 18.5px 92px 18.5px 1059.859px;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media screen and (max-width:1324px) {
+      display: flex;
+      justify-content: center; 
+      padding: 18.5px 92px 18.5px 60px;
+      
+    }
+   }
+
+  &_link{
+
+    color: #22262A;
+    font-family: $poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover{
+      color: #ee7504;
+    }
+  }
+
+  &_link:not(:last-child){
+    margin-right: 30px;
+  }
+ 
+}

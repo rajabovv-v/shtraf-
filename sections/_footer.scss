@@ -1,0 +1,78 @@
+.footer{
+
+    &_row{
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        margin-top: 150px;
+    }
+    &_one{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:724px) {
+            display: flex;
+            flex-direction: column;  
+            gap: 20px;          
+          }
+
+        &_text1{
+            display: flex;
+            gap: 32px;
+            &_p1{
+                color: #000;
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height:150%; 
+                letter-spacing: 0.2px;
+            }
+
+        }
+        &_text2{
+            display: flex;
+            gap: 33px;
+        }
+    }
+    &_two{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:724px) {
+            display: flex;
+            flex-direction: column;  
+            gap: 20px;          
+          }
+
+        &_text1{
+            display: flex;
+            gap: 32px;
+            @media screen and (max-width:724px) {
+                display: flex;
+                gap: 20px;          
+              }
+
+            &_p1{
+                color: #000;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height:150%;
+                letter-spacing: 0.14px;
+            }
+            &_p2{
+                color: #525252;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height:150%;
+                letter-spacing: 0.14px;
+            }
+        }
+        &_text2{
+            display: flex;
+            gap: 33px;
+        }
+    }
+}
